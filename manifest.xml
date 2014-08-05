@@ -1,0 +1,16 @@
+<package>
+  <description brief="oriented_bounding_box">
+
+     oriented_bounding_box
+
+  </description>
+  <author>hdeeken</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/oriented_bounding_box</url>
+  <depend package="lvr_tools"/>
+  <depend package="geometry_msgs"/>
+  <depend package="visualization_msgs"/>
+</package>
+
+

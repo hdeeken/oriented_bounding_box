@@ -1,0 +1,4 @@
+geometry_msgs/Point[] points
+---
+geometry_msgs/Point[] corners
+visualization_msgs/Marker marker
