@@ -1,5 +1,6 @@
 ~$
 .swp$
+src/oriented_bounding_box/
 build/
 bin/
 lib/
