@@ -32,7 +32,6 @@ rosbuild_gensrv()
 #rosbuild_add_executable(example examples/example.cpp)
 #target_link_libraries(example ${PROJECT_NAME})
 
-
 find_package(CGAL)
 if(CGAL_FOUND)
 link_directories(${CGAL_LIBRARY_DIRS})
@@ -45,9 +44,5 @@ link_directories(${GMM_LIBRARY_DIRS})
 include_directories(${GMM_INCLUDE_DIRS})
 endif(GMM_FOUND)
 
-#rosbuild_add_executable(obb_main src/main.cpp)
-#target_link_libraries(obb_main ${CGAL_LIBRARY} ${GMM_LIBRARY} 'gmp')
-
 rosbuild_add_executable(oriented_bounding_box_node src/oriented_bounding_box_node.cpp)
 target_link_libraries(oriented_bounding_box_node ${CGAL_LIBRARY} ${GMM_LIBRARY} 'gmp')
-
